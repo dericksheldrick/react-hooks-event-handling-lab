@@ -8,7 +8,7 @@ function EyesOnMe() {
     // }
 
     function handleBlur(event){
-        console.log("Hey! Eyes on me")
+        console.log("Hey! Eyes on me!")
 
     }
     function handleFocus(event){
@@ -16,7 +16,7 @@ function EyesOnMe() {
     }
   return (
     <div>
-        <button /*onClick={handleClick}*/ onFocus={handleFocus} onBlur={handleBlur}>Eyes On Me</button>
+        <button /*onClick={handleClick}*/ onFocus={handleFocus} onBlur={handleBlur}>Eyes on me</button>
     </div>
   )
 }
